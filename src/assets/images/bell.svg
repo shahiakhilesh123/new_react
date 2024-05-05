@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.668" height="32" viewBox="0 0 26.668 32">
+    <g id="Group_233" transform="translate(-1614.009 -40)">
+        <g id="notification_1_" transform="translate(1571.351 40)">
+            <g id="Group_130" transform="translate(42.657 4.667)">
+                <g id="Group_129" transform="translate(0)">
+                    <path id="Path_264"
+                          d="M69.23,96.991l-2.291-3.816a11.343,11.343,0,0,1-1.615-5.832V84a9.333,9.333,0,0,0-18.667,0v3.343a11.343,11.343,0,0,1-1.615,5.832l-2.291,3.816A.666.666,0,0,0,43.325,98H68.658a.666.666,0,0,0,.572-1.009ZM44.5,96.667l1.684-2.807a12.664,12.664,0,0,0,1.805-6.517V84a8,8,0,0,1,16,0v3.343a12.676,12.676,0,0,0,1.8,6.517l1.685,2.807Z"
+                          transform="translate(-42.657 -74.667)" fill="#b5b5b5"/>
+                </g>
+            </g>
+            <g id="Group_132" transform="translate(53.325)">
+                <g id="Group_131" transform="translate(0)">
+                    <path id="Path_265"
+                          d="M216,0a2.669,2.669,0,0,0-2.667,2.667V5.333a.667.667,0,0,0,1.333,0V2.667a1.333,1.333,0,0,1,2.667,0V5.333a.667.667,0,0,0,1.333,0V2.667A2.669,2.669,0,0,0,216,0Z"
+                          transform="translate(-213.333 0)" fill="#b5b5b5"/>
+                </g>
+            </g>
+            <g id="Group_134" transform="translate(52.658 26.668)">
+                <g id="Group_133" transform="translate(0)">
+                    <path id="Path_266"
+                          d="M208.885,427.008a.667.667,0,1,0-1.152.675,2,2,0,1,1-3.464,0,.668.668,0,1,0-1.152-.675,3.335,3.335,0,1,0,5.768,0Z"
+                          transform="translate(-202.666 -426.68)" fill="#b5b5b5"/>
+                </g>
+            </g>
+        </g>
+        <circle id="Ellipse_32" cx="4.5" cy="4.5" r="4.5" transform="translate(1630 43)"
+                fill="#f89191"/>
+    </g>
+</svg>

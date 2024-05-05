@@ -1,0 +1,133 @@
+.search-box {
+  border: none;
+  box-shadow: var(--box-shadow-low) !important;
+}
+
+
+.header-search-box {
+  box-shadow: none !important;
+  background: var(--color-surface) !important;
+}
+
+.positive-button {
+  text-transform: none !important;
+  border-radius: 3px;
+  box-shadow: 0 6px 19px 0 #6500ff47;
+}
+
+.positive-button span {
+  letter-spacing: 0.008em;
+  font-weight: 400;
+  text-transform: capitalize;
+
+}
+.app-button span {
+  letter-spacing: 0.008em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.upload-button {
+  text-transform: none !important;
+  border-radius: 3px;
+  box-shadow: var(--box-shadow-low);
+}
+
+.dropdown-toggle1 {
+  height: 50px;
+  width: 50px;
+  border: 0;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: var(--box-shadow-low);
+  white-space: nowrap;
+  overflow-wrap: unset;
+  margin-top: 5px;
+  padding: 0;
+  position: relative;
+  display: inline;
+  font-size: .9rem;
+}
+
+.purple-background {
+  background-color: #7116ed;
+  color: white;
+}
+
+.record-per-page {
+  position: relative;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.pages-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.table-container {
+  overflow: auto;
+}
+
+.modal-div {
+  top: -250px;
+  left: 0;
+  z-index: 1500;
+}
+
+.pagination-dropdown .dropdown-menu1 {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 278px) {
+
+  .record-per-page {
+    position: relative;
+    font-weight: 200;
+    font-size: .8rem;
+    margin-right: 5px;
+  }
+
+  .pages-text {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 200;
+    font-size: .8rem;
+  }
+
+  .dropdown-toggle1 {
+    height: 30px;
+    width: 30px;
+    border: 0;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: var(--box-shadow-low);
+    white-space: nowrap;
+    overflow-wrap: unset;
+    margin-top: 5px;
+    padding: 0;
+    position: relative;
+    display: inline;
+    font-size: .8rem;
+  }
+
+  .purple-background {
+    background-color: #7116ed;
+    color: white;
+  }
+}
+
+.add-upload-button {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 510px) {
+  .add-upload-button {
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,9 @@
+.ratingItem:hover {
+    cursor: pointer;
+
+}
+
+.ratingItem:hover .ratingItemChild {
+
+    border-bottom: 1px solid #000;
+}

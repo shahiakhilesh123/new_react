@@ -1,0 +1,62 @@
+.creation_mode_button:hover {
+    border-color: red !important;
+}
+
+.creation_mode_text:hover {
+    cursor: pointer;
+    border-color: red !important;
+    border-width: 1px !important;
+    border: solid;
+}
+
+.creation_mode_input:hover {
+    cursor: pointer;
+    border-color: red !important;
+    border-width: 1px !important;
+    border: solid;
+}
+
+.creation_mode_image:hover {
+    cursor: pointer;
+}
+
+.neg-creation_mode_button:hover {
+    border-color: red !important;
+}
+
+.neg-creation_mode_text:hover {
+    cursor: pointer;
+    border-color: red !important;
+    border-width: 1px !important;
+    border: solid;
+}
+
+.neg-creation_mode_input:hover {
+    cursor: pointer;
+    border-color: red !important;
+    border-width: 1px !important;
+    border: solid;
+}
+
+.neg-creation_mode_image:hover {
+    cursor: pointer;
+}
+
+
+.bottom_footer_input {
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0
+}
+
+.no_background {
+    background: none;
+}
+
+.no_background:hover {
+    background: none;
+}
+
+.m-0 {
+
+}

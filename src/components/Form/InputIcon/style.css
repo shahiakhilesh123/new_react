@@ -1,0 +1,37 @@
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: absolute;
+    color: #cecece;
+    z-index: 9999;
+    margin-top: 10px;
+}
+
+.input-container .form-control {
+    position: relative;
+    height: auto;
+    padding: 15px 46px;
+    box-sizing: border-box;
+}
+
+.input-container .form-control {
+    display: block;
+    width: 100%;
+    color: #000;
+    -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #c6c6c6;
+    height: 50px;
+    border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+// This value (150 by default) determines whether a color is dark or light.
+// This is used to determine the text color based on background color.
+// Our primary color is light and we need light text, so we set this a bit higher than normal.
+$yiq-contrasted-threshold: 180;
+
+// Change the theme colors
+$theme-colors: (
+        "primary": #6500ff,
+        "secondary": #dddddd
+);
+$input-disabled-bg: #f1f1f1;
+
+// Import Bootstrap and its default variables
+// It is important to do this at the end and not in the beginning.
+// Putting this in the beginning will cause our custom values to be overridden by the library's values.
+@import '~bootstrap/scss/bootstrap.scss';

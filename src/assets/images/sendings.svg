@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+    <path id="Icon_awesome-stack-exchange"
+          d="M.553,10.384h12v.688a2.02,2.02,0,0,1-1.9,2.125H10.1L7.578,16V13.2H2.452a2.02,2.02,0,0,1-1.9-2.125v-.687Zm0-.738h12V6.991h-12Zm0-3.419h12V3.572h-12ZM10.652,0h-8.2a2.017,2.017,0,0,0-1.9,2.116v.7h12v-.7A2.021,2.021,0,0,0,10.652,0Z"
+          transform="translate(-0.553)" fill="#000000"/>
+</svg>

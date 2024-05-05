@@ -1,0 +1,33 @@
+.campaign-list-progress {
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    margin-bottom: 4px;
+  }
+
+  .campaign-list-progress_1 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.campaign-list-open-rate {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    margin-bottom: 4px;
+  }
+}
+
+.campaign-list-close-rate {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    margin-bottom: 4px;
+  }
+}

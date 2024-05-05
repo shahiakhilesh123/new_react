@@ -1,0 +1,183 @@
+:root {
+  --color-body-surface: #fafafd;
+  --color-surface: #e4e4edd6;
+  --color-surface-focus: #e4e4edff;
+  --color-1: rgba(0, 0, 0, 0.5);
+  --color-2: #434343;
+  --color-3: #5D5D5D;
+  --color-4: #777777;
+  --color-5: #B9B9B9;
+  --color-6: #6500ff;
+  --color-7: rgba(0, 0, 0, 0.5);
+  --color-8: #9B9B9B;
+  --color-9: #373737;
+  --color-10: #646464;
+  --color-11: #989898;
+  --color-12: #9D9D9D;
+  --color-13: #34d8f0;
+  --color-14: rgba(0, 0, 0, .075);
+  --color-15: #DEDEDE;
+  --color-16: #EBF3F6;
+  --color-17: #f4f8f9;
+  --color-primary: #6500ff;
+  --color-primary-active: #6500ff;
+  --font-size-very-small: 0.8rem;
+  --font-size-small: 0.95rem;
+  --font-size-medium: 1rem;
+  --font-size-big: 1.2rem;
+  --font-size-bigger: 1.4rem;
+  --font-size-biggest: 1.6rem;
+  --box-shadow-low: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+  --box-shadow-large: 0 3px 20px 0 rgba(0, 0, 0, 0.15);
+  --box-shadow-large-1: 0 3px 30px rgba(0, 0, 0, 0.10);;
+
+}
+
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: local('FuturaPT'), url('https://dashboard.emailwish.com/assets/fonts/FuturaPTHeavy.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: local('FuturaPT'), url('https://dashboard.emailwish.com/assets/fonts/FuturaPTBold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+/*@font-face {*/
+/*    font-family: 'FuturaPT';*/
+/*    src: local('FuturaPT'), url(assets/fonts/FuturaPTLight.otf) format('truetype');*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*}*/
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: local('FuturaPT'), url('https://dashboard.emailwish.com/assets/fonts/FuturaPTBook.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: local('FuturaPT'), url('https://dashboard.emailwish.com/assets/fonts/FuturaPT-Demi.woff') format('woff');
+  font-weight: 450;
+  font-style: normal;
+
+}
+
+.u600 {
+  font-family: 'FuturaPT';
+  font-weight: 600;
+
+}
+
+.u500 {
+  font-family: 'FuturaPT';
+  font-weight: 500;
+
+}
+
+.u400 {
+  font-family: 'FuturaPT';
+  font-weight: 400;
+
+}
+
+.u300 {
+  font-family: 'FuturaPT';
+  font-weight: 300;
+
+}
+
+.u450 {
+  font-family: 'FuturaPT';
+  font-weight: 450;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+  height: 100%;
+  font-size: 90%;
+
+}
+
+body {
+  height: 100%;
+  font-family: 'FuturaPT';
+  background-color: var(--color-body-surface);
+
+}
+
+
+.dashboard-header {
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 786px) {
+    display: block;
+  }
+
+  .dashboard-header-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+
+    .dashboard-header-greeting {
+      font-size: 16px;
+      font-weight: 500;
+      color: #4f4f4f;
+    }
+  }
+
+  .dashboard-header-first-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-primary);
+  }
+
+  .dashboard-header-date {
+    min-width: 130px;
+    background: white;
+    padding-inline: 16px;
+    padding-block: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+
+}
+
+.dashboard-header-card-wrapper {
+  margin-bottom: 16px;
+}
+
+.dashboard-header-card {
+  padding: 12px;
+  border-radius: 8px;
+
+  .dashboard-header-card-label {
+    color: #5a5b4a;
+    font-size: 16px;
+  }
+}

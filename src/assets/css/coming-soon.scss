@@ -1,0 +1,16 @@
+.coming-soon {
+  margin-top: 4rem;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}

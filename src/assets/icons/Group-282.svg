@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16">
+    <g id="Group_282" transform="translate(-1482 -579)">
+        <g id="Rectangle_286" transform="translate(1482 581)" fill="#fff" stroke="#bebebe" stroke-width="1">
+            <rect width="17" height="14" rx="3" stroke="none"/>
+            <rect x="0.5" y="0.5" width="16" height="13" rx="2.5" fill="none"/>
+        </g>
+        <text id="ip" transform="translate(1485 590)" fill="#bebebe" font-size="10" font-family="SegoeUI-Bold, Segoe UI"
+              font-weight="700">
+            <tspan x="0" y="0">ip</tspan>
+        </text>
+    </g>
+</svg>

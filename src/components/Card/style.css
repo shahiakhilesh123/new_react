@@ -1,0 +1,17 @@
+.app-card {
+    box-shadow: var(--box-shadow-low) !important;
+    border: none;
+}
+
+.app-card-header {
+    background-color: white;
+    border-bottom: none;
+}
+
+.wide-card {
+    width: 760px;
+    background-color: #6500ff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}

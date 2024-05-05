@@ -1,0 +1,30 @@
+.generic-select-child.active:before {
+  content: '✓';
+  right: 0;
+  top: 0;
+  position: absolute;
+  color: #fff;
+  background: #6500ff;
+  border-radius: 6px;
+  padding: 10px 15px;
+  z-index: 1;
+}
+
+.generic-select-child.active {
+
+}
+
+.generic-select-child {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+}
+
+.generic-select-child {
+  h6 {
+    color: black;
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,33 @@
+/*.page-link {*/
+/*    cursor: pointer;*/
+/*    color: var(--color-2);*/
+/*    background-color: white;*/
+/*}*/
+
+/*.page-link:hover {*/
+/*    color: var(--color-2);*/
+/*    background-color: var(--color-5);*/
+/*}*/
+
+/*.page-item.active .page-link {*/
+/*    z-index: 1;*/
+/*    padding-top: 15px;*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    border: 0;*/
+/*    border-radius: 50%;*/
+/*    color: black;*/
+/*    font-weight: 200;*/
+/*    background-color: white;*/
+/*    box-shadow: var(--box-shadow-low);*/
+/*    margin-top: 5px;*/
+/*}*/
+
+/*.page-item.active .page-link:hover {*/
+/*    background-color: white;*/
+/*    border-color: white;*/
+/*}*/
+
+/*.pages-text {*/
+/*    font-weight: 200;*/
+/*}*/

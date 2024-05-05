@@ -1,0 +1,39 @@
+.tour-choose-list {
+  list-style: none;
+  margin-top: 8px;
+
+  li {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 8px;
+    color: #6500ff;
+    font-size: 16px;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: var(--box-shadow-low);
+    }
+  }
+}
+
+.tour-view {
+
+
+  .tour-image-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 80%;
+
+    img {
+      max-width: 100%;
+      width: auto;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+
+}
+

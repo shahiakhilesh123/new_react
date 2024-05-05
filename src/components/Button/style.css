@@ -1,0 +1,47 @@
+.menu-button {
+}
+
+.menu-button:hover, .menu-button:focus {
+    outline: none;
+}
+
+.menu-action-button {
+    outline: none;
+    font-size: 0.7rem;
+}
+
+.menu-action-button:hover, .menu-action-button:focus {
+    outline: none;
+}
+
+.app-button {
+    background-color: var(--color-6);
+    color: white;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    line-height: 2;
+    font-size: 0.9rem;
+    box-shadow: var(--box-shadow-low);
+}
+
+.app-button:hover {
+    background-color: var(--color-13);
+    box-shadow: var(--box-shadow-large);
+}
+
+.onboard-button {
+    width: 10rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    line-height: 2;
+    font-size: 0.9rem;
+    box-shadow: var(--box-shadow-low);
+
+}
+
+.onboard-button:hover {
+    box-shadow: var(--box-shadow-large);
+}

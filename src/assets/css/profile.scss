@@ -1,0 +1,46 @@
+.profile-photo {
+  .profile-photo__image {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 110px;
+    width: 110px;
+    margin: auto;
+  }
+
+  .profile-photo__button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.chat-settings-photo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  span {
+    text-align: center;
+  }
+
+  .chat-settings-photo__image {
+
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 70px;
+      object-fit: cover;
+    }
+  }
+
+  .chat-settings-photo__button {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+  }
+
+  .chat-settings-photo__button2 {
+    display: flex;
+    justify-content: center;
+  }
+}

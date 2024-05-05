@@ -1,0 +1,75 @@
+.popup-list {
+  .edit-trigger {
+
+  }
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000a6;
+}
+
+.popup-wrapper {
+  margin: 18px;
+  position: relative;
+  animation: 0.5s appearTopAnimation;
+}
+
+.popup-frame {
+  border: none;
+  background-color: white;
+
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: -14.4px;
+  right: -14.4px;
+
+  height: 28.8px;
+  width: 28.8px;
+  border-radius: 50%;
+  font-size: 14.4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+
+  cursor: pointer;
+
+  outline: none;
+  border: none;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+
+/* ANimation Keyframes */
+
+@keyframes appearTopAnimation {
+
+  0% {
+    opacity: 0.5;
+    top: -43.2px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}

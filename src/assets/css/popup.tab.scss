@@ -1,0 +1,49 @@
+.popup-template-chooser {
+
+  .popup-template-chooser__item__wrapper {
+    margin-bottom: 10px;
+    max-width: 500px;
+
+    .popup-template-chooser__item {
+
+      .popup-template-chooser__item__inner {
+        display: flex;
+
+        .popup-template-chooser__item__img {
+          flex: 1;
+          cursor: pointer;
+
+          .popup-template-chooser__item__img__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 80%;
+            }
+          }
+
+        }
+
+        .popup-template-chooser__content {
+
+          flex: 2;
+          padding-left: 10px;
+          display: flex;
+          align-items: center;
+
+          .popup-template-chooser__content__inner {
+            align-items: center;
+            flex: 1;
+            flex-direction: column;
+          }
+        }
+      }
+
+
+      .popup-template-chooser__choose {
+
+      }
+    }
+  }
+}

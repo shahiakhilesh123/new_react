@@ -1,0 +1,353 @@
+.email-dashboard {
+  margin-top: 1.2rem;
+
+  .email-dashboard__campaign {
+
+    margin-bottom: 1rem;
+
+    .top-5-tab {
+      min-width: unset !important;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        border-radius: 2px;
+        bottom: 0;
+        margin: 11px auto;
+        background-color: aqua;
+      }
+
+    }
+
+    .top-5-table {
+      input[type="checkbox"] {
+        height: 10px;
+        vertical-align: inherit;
+        width: 10px;
+      }
+
+      .email-list-name {
+        font-size: .9rem;
+        text-align: left;
+        font-weight: lighter;
+      }
+
+      p {
+        font-size: .9rem;
+        color: black;
+      }
+    }
+
+    .top-5-table {
+      overflow-y: scroll;
+      height: 250px;
+
+      &::-webkit-scrollbar {
+        width: 3px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+    }
+
+
+    .app-card-2 {
+      height: 100%;
+    }
+
+    button {
+      span {
+        font-size: .9rem;
+        color: black;
+      }
+    }
+
+    .top-5-table {
+      th {
+        font-size: 0.9rem;
+        border-bottom: unset !important;
+        text-align: center;
+      }
+
+      td {
+        span {
+          padding-left: 2%;
+        }
+
+        font-weight: 200;
+        font-size: .9rem;
+        text-align: center;
+        color: black;
+        padding: 7px 0 !important;
+        border-bottom: 1px solid #f6f6f6;
+      }
+
+      tbody {
+        tr {
+          &:hover {
+            box-shadow: var(--box-shadow-low);
+          }
+        }
+
+      }
+    }
+  }
+
+  .email-dashboard__credit-used {
+    margin-bottom: 1rem;
+
+    .app-card-2 {
+      height: 100%;
+    }
+
+    p {
+      margin-bottom: .2rem;
+      font-size: .9rem;
+      font-weight: 300;
+    }
+
+    span.float-right {
+      font-size: .9rem;
+      padding-top: 4px;
+    }
+
+    .progress {
+      margin-bottom: 1.6rem;
+      border-radius: unset;
+      width: 100%;
+    }
+  }
+
+  .email-dashboard__statistics {
+    margin-bottom: 1rem;
+
+    .app-card-2 {
+      height: 100%;
+    }
+  }
+
+
+  .email-dashboard__recent-campaign {
+    margin-bottom: 1rem;
+
+    .app-card-2 {
+      height: 100%;
+    }
+
+    .recent-campaign-table {
+
+
+      &::-webkit-scrollbar {
+        width: 3px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+    }
+  }
+
+  .email-dashboard__activities {
+    margin-bottom: 1rem;
+
+    .app-card-2 {
+      height: 100%;
+    }
+
+    .email-dashboard__activities__list {
+      overflow-x: hidden !important;
+      scroll-behavior: inherit;
+
+      .email-dashboard__activities__list-item {
+
+
+        .email-dashboard__activities__list-item-sub {
+          margin: 10px;
+          padding: 10px;
+          display: flex;
+
+          &:hover {
+            box-shadow: var(--box-shadow-low);
+            cursor: pointer;
+          }
+
+          p {
+            font-size: .9rem;
+            text-align: left;
+            color: #2e2e2e;
+            letter-spacing: .4px;
+            font-weight: 200;
+            border-bottom: unset;
+
+            span {
+              margin-bottom: unset;
+              font-size: .9rem;
+              text-align: left;
+              color: #2e2e2e;
+              letter-spacing: .4px;
+              font-weight: 200;
+              padding: 20px 0 0 0 !important;
+              border-bottom: unset;
+            }
+          }
+
+          .email-dashboard__activities__list-item__checkbox {
+            padding-right: 10px;
+
+            input[type="checkbox"] {
+              position: relative;
+              height: 18px;
+              -webkit-appearance: none;
+              appearance: none;
+              border: 0;
+              background: transparent;
+              width: 18px;
+
+              &::after {
+                position: absolute;
+                content: "";
+                background-color: #6500ff;
+                border: unset;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                top: 0;
+                z-index: 1;
+                border-radius: 2px;
+              }
+            }
+          }
+
+
+          .email-dashboard__activities__list-item__message {
+            flex: 1;
+          }
+
+
+          .email-dashboard__activities__list-item__date {
+            font-size: .9rem;
+            color: #2e2e2e;
+            letter-spacing: .1px;
+            font-weight: 200;
+            vertical-align: 10px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .email-dashboard__campaign-performance {
+
+    .campaign-chooser {
+      min-width: 200px;
+      font-weight: normal;
+    }
+
+    .email-dashboard__campaign-performance__body {
+      .email-dashboard__campaign-performance__body_rate {
+        margin-bottom: 1rem;
+
+        .open-click-rate {
+          .app-card-2 {
+            height: 100%;
+          }
+
+          .open-rate {
+            .progress-heading {
+              margin-bottom: 1rem;
+              font-size: .9rem;
+              font-weight: 500;
+            }
+
+            .progress {
+              margin-bottom: 1.6rem;
+              border-radius: unset;
+              height: .7rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+              font-weight: 500;
+            }
+
+            button {
+              padding: 3px 18px;
+              border: unset;
+              background: #6500ff;
+              color: white;
+              border-radius: 3px;
+              font-size: .9rem;
+              top: -10px;
+              width: 95px;
+              font-weight: 200;
+            }
+          }
+
+          .click-rate {
+            .progress-heading {
+              margin-bottom: 1rem;
+              font-size: .9rem;
+              font-weight: 500;
+            }
+
+            .progress {
+              margin-bottom: 1.6rem;
+              border-radius: unset;
+              height: .7rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+              font-weight: 500;
+            }
+
+            button {
+              padding: 3px 18px;
+              border: unset;
+              background: #6500ff;
+              color: white;
+              border-radius: 3px;
+              font-size: .9rem;
+              top: -10px;
+              width: 95px;
+              font-weight: 200;
+            }
+          }
+        }
+
+
+        .list-country {
+          .app-card-2 {
+            height: 100%;
+          }
+        }
+
+        .list-growth {
+          .app-card-2 {
+            height: 100%;
+          }
+        }
+      }
+
+      .email-dashboard__campaign-performance__body_performance {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+
+}
+
+.no-shadow {
+  box-shadow: none !important;
+
+  &:hover {
+    box-shadow: none !important;
+  }
+}
+

@@ -1,0 +1,46 @@
+.plan-table {
+
+  h3 {
+    line-height: 22px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #3c3c3c;
+    font-size: 22px;
+  }
+
+  p {
+    font-weight: 400;
+    color: #33475B;
+  }
+
+  thead tr th {
+  }
+
+  .plan-table-data-th {
+    .plan-table-data-th-wrapper {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  .plan-table-feature-th {
+    width: 28%;
+  }
+
+  .plan-table-feature-tbody-td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6500ff;
+    color: white;
+    font-size: 16px;
+    padding-block: 20px;
+    padding-left: 20px;
+  }
+
+  .plan-table-data-tbody-td {
+    text-align: center;
+    vertical-align: middle;
+  }
+}
